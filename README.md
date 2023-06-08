@@ -103,7 +103,7 @@ _**Some notes:**_
 
 # Add and List Students
 
-![2023-06-07_20h35_48](https://github.com/xJuan21/StudentTranscripts-w-Files/assets/64575393/d67307f7-f1c7-4913-ac2d-360161910560)
+![Untitled_-_Made_with_Clipchamp__1__AdobeExpress (1)](https://github.com/xJuan21/StudentTranscripts-w-Files/assets/64575393/8f335383-0d7f-40a8-8da0-c4290ba38e17)
 
 Suppose the first time you run the program, you do the following (**>>>** is the program’s prompt to
 the user):
