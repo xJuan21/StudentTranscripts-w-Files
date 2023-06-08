@@ -1,4 +1,4 @@
-# Student Transcripts with Files Project (Database Simulation)
+# Student Transcripts with Files Project
 
 **Author:**
 Juan Mota.
