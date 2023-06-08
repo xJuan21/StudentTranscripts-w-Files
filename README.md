@@ -51,18 +51,18 @@ the command as follows:
     first name, and another string as a phone number. These three items together represent
     a new student. So, the following:
     
-    	a s Blythe Stephen 636-949-4681
+    	a s Mota Juan 636-949-4681
 	
-   it'll add a student named _'Stephen Blythe'_ with a phone number of _'636-949-4681'_.
+   it'll add a student named _'Juan Mota'_ with a phone number of _'636-949-4681'_.
     
   – **t**, which should then also read the next string as a last name, the following string as
     a first name, a string as a course prefix, an integer as a course number, a string as
     a course grade, and a semester as a string. These items together represent a student
     having completed a course. So, the following:
     
-    	a t Blythe Stephen CSC 30500 B+ Sp89
+    	a t Mota Juan CSC 30500 B+ Sp89
 	
-  should add a course taken for _'Stephen Blythe'_ of _'CSC 30500'_, with a grade of _'B+'_ in _'Sp89'_.
+  should add a course taken for _'Juan Mota'_ of _'CSC 30500'_, with a grade of _'B+'_ in _'Sp89'_.
     
 • **l** (that is, the letter ’l’ for ”list”), which should then read in one of:
 
@@ -101,17 +101,21 @@ _**Some notes:**_
 
 # ExampleExecution
 
+# Add and List Students
+
+![2023-06-07_20h35_48](https://github.com/xJuan21/StudentTranscripts-w-Files/assets/64575393/d67307f7-f1c7-4913-ac2d-360161910560)
+
 Suppose the first time you run the program, you do the following (**>>>** is the program’s prompt to
 the user):
 
 	>>>l s
-	>>>a s Blythe Stephen 6369494681
+	>>>a s Mota Juan 6369494681
 	>>>a s Gates William 666-MCR-SOFT
 	>>>l s
 
 Output:
 
-	Blythe, Stephen 6369494681
+	Mota, Juan 6369494681
 	Gates, William 666-MCR-SOFT
 
 Then, suppose you run the program again (possibly without stopping the above running program):
@@ -120,7 +124,7 @@ Then, suppose you run the program again (possibly without stopping the above run
 	
 Output:
 
-	Blythe, Stephen 6369494681
+	Mota, Juan 6369494681
 	Gates, William 666-MCR-SOFT
 
 Add a new Student and list the existing ones stored.
@@ -130,7 +134,7 @@ Add a new Student and list the existing ones stored.
 	
 Output:
 
-	Blythe, Stephen 6369494681
+	Mota, Juan 6369494681
 	Gates, William 666-MCR-SOFT
 	Simpsom, Lisa 555-1234567
 
@@ -141,7 +145,7 @@ Add another Student
 
 Output:
 
-	Blythe, Stephen 6369494681
+	Mota, Juan 6369494681
 	Gates, William 666-MCR-SOFT
 	Simpsom, Lisa 555-1234567
 	Simpson, Bart 555-7654321
@@ -156,11 +160,17 @@ Quit the program:
 
 Output:
 
-	Blythe, Stephen 6369494681
+	Mota, Juan 6369494681
 	Gates, William 666-MCR-SOFT
 	Simpsom, Lisa 555-1234567
 	Simpson, Bart 555-7654321
 	
+
+
+# Add Grade Types, Courses, and Transcripts
+
+![Demo](https://github.com/xJuan21/StudentTranscripts-w-Files/assets/64575393/7fb09842-c714-4d5a-bca2-ca36bb9508de)
+
 **Example with a sequence of multiple data being stored:**
 
 	>>>a c CSC 14400 Computer_Science_I 4
@@ -179,16 +189,16 @@ Output:
 	>>>a m Su87 1987 Summer
 	>>>a m F87 1987 Fall
 	>>>a m S87 1987 Spring
-	>>>a t Blythe Stephen CSC 14400 A F86
-	>>>a t Blythe Stephen MTH 27100 B Sp87
+	>>>a t Mota Juan CSC 14400 A F86
+	>>>a t Mota Juan MTH 27100 B Sp87
 	>>>a t Gates William CSC 14400 F F87
-	>>>a t Blythe Stephen CSC 36000 A F87
-	>>>a t Blythe Stephen CSC 30500 A Sp87
-	>>>a t Blythe Stephen CSC 24400 B Sp87
+	>>>a t Mota Juan CSC 36000 A F87
+	>>>a t Mota Juan CSC 30500 A Sp87
+	>>>a t Mota Juan CSC 24400 B Sp87
 	
 Get a specific Transcript:
 
-	>>>t Blythe Stephen
+	>>>t Mota Juan
 	
 Output:
 
