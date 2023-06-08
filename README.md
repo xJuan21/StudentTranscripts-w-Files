@@ -5,7 +5,7 @@ Juan Mota.
 **OS:** Linux - Fedora
 
 **-Decription-**
-Program that keeps track of students, courses, grade types,
+\nProgram that keeps track of students, courses, grade types,
 semesters, and the relationship(s) between them.
 
 Consequently, the program initializes multiple txt files that will work as storage 
